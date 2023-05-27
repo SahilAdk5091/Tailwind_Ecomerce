@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Hero from '../../components/Hero'
-import Products from '../../components/Products'
 import Footer from '../../components/Footer'
 import Feature from '../../components/Feature'
+import ProductsCard from '../../components/ProductsCard'
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -21,11 +21,11 @@ const Home = () => {
         <h2 className='text-4xl font-bold text-center'>Products</h2>
         {
           products.length>0 ?
-          <Products products={products} />
+          <ProductsCard products={products} />
           :
           <div>Loading...</div>
         }
-        <Products/>
+        <ProductsCard/>
         <h2 className='text-4xl font-bold text-center'>Popular Feature</h2>
         <Feature/>
         <Footer/>
