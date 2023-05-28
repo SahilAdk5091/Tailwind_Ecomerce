@@ -20,8 +20,6 @@ const Products = () => {
     <ProductsCard products={products}/>
     <Footer/>
     </>
-    
-    
   )
 }
 
