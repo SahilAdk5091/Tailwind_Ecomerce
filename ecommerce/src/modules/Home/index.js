@@ -15,6 +15,7 @@ const Home = () => {
     }
     fetchProducts()
   },[])
+  
   return (
     <>
         <Hero/>

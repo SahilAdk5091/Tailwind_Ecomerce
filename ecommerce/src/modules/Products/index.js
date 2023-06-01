@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import ProductsCard from '../../components/ProductsCard'
 import Footer from '../../components/Footer';
 
-
 const Products = () => {
     const [products, setProducts] = useState([]);
     useEffect(()=>{
@@ -22,5 +21,6 @@ const Products = () => {
     </>
   )
 }
+
 
 export default Products
