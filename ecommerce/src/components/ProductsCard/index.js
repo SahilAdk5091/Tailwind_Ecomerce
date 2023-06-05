@@ -21,9 +21,7 @@ const ProductsCard = ({ products = [] }) => {
           <p className="mt-1 font-semibold">${price}</p>
         </div>
       </Link>
-
         )
-
       })
     }
     </div>
