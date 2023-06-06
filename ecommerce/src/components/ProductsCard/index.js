@@ -29,5 +29,4 @@ const ProductsCard = ({ products = [] }) => {
 </section>
   )
 }
-
 export default ProductsCard
